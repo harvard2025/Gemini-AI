@@ -1,0 +1,120 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(242,244,243);
+    align-items: center;
+}
+
+body > header{
+    background-color: rgb(242, 244, 243);
+    display: flex;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.08), 0 2px 4px 0 rgba(0, 0, 0, 0.12);
+}
+
+.logo{
+  text-decoration: none;
+  color: inherit;
+  font-size: 90%;
+  margin: 0;
+}
+
+body > main{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+  .inptthing {
+    text-align: center;
+    margin-top: 20px;
+  }
+
+  .inptthing .text {
+    display: block;
+    margin: 0 auto 10px auto;
+  }
+
+  .inptthing .button {
+    display: block;
+    margin: 0 auto;
+    padding: 6px 14px;     /* قلل البادينج */
+    font-size: 14px;       /* قلل حجم الخط */
+    border-radius: 6px;    /* زاوية بسيطة لو حابب شكل أنعم */
+    border: 1px solid #ccc;
+    background-color: #eee;
+    cursor: pointer;
+  }
+
+.text{
+    width: 40vw;
+    height: 15vh;
+    border-radius: 10px;
+}
+.text::placeholder{
+    padding-top: 1%;
+    padding-left: 1%;
+}
+
+.result{
+  padding-top: 1%;
+}
+
+details {
+  border: 1px solid #aaa;
+  border-radius: 4px;
+  padding: 0.5em 0.5em 0;
+}
+
+summary {
+  font-weight: bold;
+  margin: -0.5em -0.5em 0;
+  padding: 0.5em;
+}
+
+details[open] {
+  padding: 0.5em;
+}
+
+details[open] summary {
+  border-bottom: 1px solid #aaa;
+  margin-bottom: 0.5em;
+}
+
+body > footer{
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+}
+.advice{
+  width: 100%;
+  background-color: rgb(242,244,243);
+}
+.realfooter{
+  width: 100%;
+  background-color: rgb(18,22,25);
+  color: white;
+  display: flex;
+  justify-content: space-between; /* يخليهم واحد على الشمال وواحد على اليمين */
+  align-items: center;
+}
+
+.signature {
+  color: #ccc;
+  font-size: 13px;
+  margin: 5px 0 10px;
+  text-align: center;
+  padding-left: 1%;
+}
+.nigga {
+  padding-right: 1%;
+}
