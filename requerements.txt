@@ -1,0 +1,4 @@
+Flask
+Google
+google-genai
+markdown
