@@ -9,8 +9,8 @@ app = Flask(__name__)
 def ask_model(prompt):
     # >>>>>>>>>>>>>>>>>>>> هنا و يشتغل APIناقص بس تحط ال 
     # >>>>>>>>>>>> Gemini AI studio/Get your API key --> 
-    apikey = os.getenv("GEMINI_API_KEY")
-    client = genai.Client(api_key=apikey)
+    a = "Put you API key Here"
+    client = genai.Client(api_key=a)
     response = client.models.generate_content(
         model="gemini-2.5-flash",
         contents=prompt
